@@ -10,7 +10,9 @@
 	},
 		onContentLoad: function() {
 			var str = window.content.document.getElementsByTagName('html')[0].innerHTML;
-			str = replaceAll(str, "おしい広島", "すごい廣島");
+			str = replaceAll(str, "おしい広島", "すごい広島");
+			str = replaceAll(str, "おしい!広島", "すごい!広島");
+			str = replaceAll(str, "おしい！広島", "すごい！広島");
 			if(str != window.content.document.getElementsByTagName('html')[0].innerHTML)
 				window.content.document.getElementsByTagName('html')[0].innerHTML = str;
 		}
