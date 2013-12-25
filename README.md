@@ -12,4 +12,5 @@ content、locale、skin、chrome.manifest、install.rdfを
   
 #### 問題点 
 * Google検索結果ではうまく動かない  
-* 正直変化に気づきにくい
+* 正直変化に気づきにくい  
+* 実行したスクショを撮って上げたら怒られそう
