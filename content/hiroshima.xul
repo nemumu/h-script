@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<overlay id="hiroshima" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript"><![CDATA[
+    var MyExtention = {
+		init: function() {
+        window.removeEventListener("load", MyExtention.init, false);
+        window.addEventListener("DOMContentLoaded", MyExtention.onContentLoad, false);
+	},
+		onContentLoad: function() {
+			var str = window.content.document.getElementsByTagName('html')[0].innerHTML;
+			str = replaceAll(str, "おしい広島", "すごい廣島");
+			if(str != window.content.document.getElementsByTagName('html')[0].innerHTML)
+				window.content.document.getElementsByTagName('html')[0].innerHTML = str;
+		}
+	};
+    window.addEventListener('load', MyExtention.init, false); 
+	
+	function replaceAll(expression, org, dest){
+		return expression.split(org).join(dest);
+	}
+]]></script>
+</overlay>
+

@@ -1,0 +1,3 @@
+content sample content/
+
+overlay chrome://browser/content/browser.xul chrome://sample/content/hiroshima.xul
