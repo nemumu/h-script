@@ -3,7 +3,7 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 	<Description about="urn:mozilla:install-manifest">
-		<em:version>1.0.1</em:version>
+		<em:version>1.0</em:version>
 		<em:id>git@nemumu.com</em:id>
 		<em:type>2</em:type>
 		<em:iconURL></em:iconURL>
@@ -20,8 +20,8 @@
 			<Description>
 				<em:locale>ja</em:locale>
 				<em:creator>id:language_and_engineering</em:creator>
-				<em:name>すごい広島</em:name>
-				<em:description>すごい広島をもっとすごくするやつ</em:description>
+				<em:name>おしくない広島</em:name>
+				<em:description>おしい広島をすごくするやつ</em:description>
 				<em:homepageURL>http://nemumu.com</em:homepageURL>
 			</Description>
 		</em:localized>
